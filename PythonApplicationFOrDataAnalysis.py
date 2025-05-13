@@ -174,7 +174,7 @@ def PlotAllPropertiesRelationValuesOneAfterAnother():
            plt.xticks(rotation=0)
            plt.show()
 
-
+           #
         ###############################################
         elif (dimensionsOfWindow[0] ==1 or dimensionsOfWindow[1] == 1):
             fig, ax = plt.subplots(dimensionsOfWindow[0], dimensionsOfWindow[1], figsize=(30, 14))
